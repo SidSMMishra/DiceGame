@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--ribeye-marrow-regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap" rel="stylesheet">
+    <!--spectral-extrabold-italic-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <!--unlock-regular-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Unlock&display=swap" rel="stylesheet">
+    <title>Dice Game</title>
+    <link href="./style.css" rel="StyleSheet" />
+</head>
+<body>
+<!-- DiceHeading*/-->
+    <div class="heading"><h1 style="margin-bottom: 0px;">Welcome to Dice Game</h1></div>
+<!-- DiceRollLink*/-->
+    <div class="linkClick"><h3 style="margin-top: 0px;">Contestants Ready</h3>
+        <a class="diceLink" href="#" onclick="rollTheDice()">Let's Roll the Dice</a>
+    </div>
+<!-- DiceImages*/-->
+    <div class="image">
+        <div class="img1">
+            <a id="name1" >Player 1</a>
+            <img id="i1" src="./dice_6.jpeg" style="width:200px;" alt="dice1" />
+        </div>
+        <div class="img2">
+            <a id="name2">Player 2</a>
+            <img id="i2" src="./dice_6.jpeg" style="width:200px;" alt="dice2" />
+        </div>
+    </div>
+<!-- Result*/-->
+    <div id="result" ></div>
+<!--Jscript-->
+    <script src="myscript.js" ></script>
+</body>
+</html>

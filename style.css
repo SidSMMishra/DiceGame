@@ -1,0 +1,140 @@
+body{
+    background-color: #511a2373;
+}
+.heading {
+    
+    font-family: "Ribeye Marrow", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: none;
+}
+
+.linkClick {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: none;
+    text-align: center;
+}
+
+.diceLink{
+    font-family: "Unlock", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 0;
+    text-align: center;
+    text-decoration: dotted;
+}
+
+input{
+    margin-top: 30px;
+}
+
+.Player {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+.Player1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+    padding-bottom: none;
+    text-align: center;
+}
+.Player2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+    padding-bottom: none;
+    text-align: center;
+}
+
+
+.nxtPage{
+    margin-top: 100px;
+    font-family: "Unlock", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 0;
+    text-align: center;
+    
+}
+
+.nextPage{
+   
+    text-decoration:dotted;
+}
+
+.image {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+
+}
+
+.img1 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+    padding-bottom: none;
+    text-align: center;
+}
+.img2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+    padding-bottom: none;
+    text-align: center;
+}
+
+#result{
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 30px;
+    
+    padding-bottom: none;
+    text-align: center;
+}
